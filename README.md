@@ -18,7 +18,7 @@ Objective
 
 ![image](https://user-images.githubusercontent.com/76060198/168650480-4abd7bfd-5047-4ec5-9f26-30b3a595513d.png)
 
-## Output
+### Output (Python)
 
 ![image](https://user-images.githubusercontent.com/76060198/168650730-b4656fd1-5359-4a9a-8a6b-fcdc4dd1580a.png)
 
