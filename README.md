@@ -18,7 +18,7 @@ Objective
 
 ![image](https://user-images.githubusercontent.com/76060198/168650480-4abd7bfd-5047-4ec5-9f26-30b3a595513d.png)
 
-### Output (Python)
+### Output 
 
 ![image](https://user-images.githubusercontent.com/76060198/168650730-b4656fd1-5359-4a9a-8a6b-fcdc4dd1580a.png)
 
@@ -28,7 +28,7 @@ Objective
 
 ![image](https://user-images.githubusercontent.com/76060198/168651157-372640d6-ad20-4a8e-87d1-552e96bce7e3.png)
 
-### Output (Python)
+### Output 
 
 ![image](https://user-images.githubusercontent.com/76060198/168651647-6d9d14f3-c4e3-419f-a066-9f0073d8f355.png)
 
@@ -37,7 +37,7 @@ Objective
 
 ![image](https://user-images.githubusercontent.com/76060198/168651266-98a86407-9c38-410d-ae8b-b52a050cb495.png)
 
-### Output (Python)
+### Output 
 
 ![image](https://user-images.githubusercontent.com/76060198/168651769-76db5696-5d00-49c6-8ce3-f8f32ab2d882.png)
 
@@ -46,7 +46,7 @@ Objective
 
 ![image](https://user-images.githubusercontent.com/76060198/168651364-60e42e4a-c885-47ee-9ba8-4b963dfdfa6c.png)
 
-### Output (Python)
+### Output 
 
 ![image](https://user-images.githubusercontent.com/76060198/168651864-77b1f64c-82f2-4712-b12f-10f2d644d86f.png)
 
