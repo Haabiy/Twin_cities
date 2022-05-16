@@ -12,14 +12,14 @@ for t in range(0, len(selected_url)):
     cities(t)
     sleep(1)
 
-#print_all_cities(all_cities_Belgium, 0)
-#print_all_cities(all_cities_Finland, 1)
-#print_all_cities(all_cities_France, 2)
+print_all_cities(all_cities_Belgium, 0)
+print_all_cities(all_cities_Finland, 1)
+print_all_cities(all_cities_France, 2)
 
 
-#print_sister_cities(all_cities_Belgium, 0, lst_belgium, twin_belgium)
-#print_sister_cities(all_cities_Finland, 1, lst_finland, twin_finland)
-#print_sister_cities(all_cities_France, 2, lst_france, twin_france)
+print_sister_cities(all_cities_Belgium, 0, lst_belgium, twin_belgium)
+print_sister_cities(all_cities_Finland, 1, lst_finland, twin_finland)
+print_sister_cities(all_cities_France, 2, lst_france, twin_france)
 
 print("_____________...Main targets...______________")
 soup = BeautifulSoup(driver.page_source, "html.parser")
