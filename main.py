@@ -11,27 +11,38 @@ _data()
 for t in range(0, len(selected_url)):
     cities(t)
     sleep(1)
-print_all_cities(all_cities_Belgium, 0)
-print_all_cities(all_cities_Finland, 1)
-print_all_cities(all_cities_France, 2)
+
+#print_all_cities(all_cities_Belgium, 0)
+#print_all_cities(all_cities_Finland, 1)
+#print_all_cities(all_cities_France, 2)
 
 
-print_sister_cities(all_cities_Belgium, 0, lst_belgium, twin_belgium)
-print_sister_cities(all_cities_Finland, 1, lst_finland, twin_finland)
-print_sister_cities(all_cities_France, 2, lst_france, twin_france)
+#print_sister_cities(all_cities_Belgium, 0, lst_belgium, twin_belgium)
+#print_sister_cities(all_cities_Finland, 1, lst_finland, twin_finland)
+#print_sister_cities(all_cities_France, 2, lst_france, twin_france)
 
 print("_____________...Main targets...______________")
-sis_city = []
 soup = BeautifulSoup(driver.page_source, "html.parser")
 body = soup.find("body")
-for div in body.find_all("div", {"class": "div-col"}):
-    for tt in range(0,10):
-        try:
-            _country = div.find_all("li")[tt].text.strip()
-            sis_city.append(_country)
-        except Exception:
-            pass
-for rr in range(0, len(sis_city)):
-    print(rr+1, sis_city[rr])
+all_c = []
+all_s = []
+for tt in range(0, 5):
+    for div in body.find_all("div", {"class": "mw-parser-output"}):
+        b = div.find_all("b")[tt].text.strip()
+        all_c.append(b)
+        for div in body.find_all("div", {"class": "div-col"})[tt]:
+            for ff in range(0, 10):
+                try:
+                    _country = div.find_all("li")[ff].text.strip()
+                    all_s.append(_country)
+                except Exception:
+                    pass
+print("________________________________")
+for rr in range(0, len(all_c)):
+    print(rr+1, all_c[rr])
+print("________________________________")
+for rr in range(0, len(all_s)):
+    print(rr+1, all_s[rr])
+
 
 sleep(1000)
