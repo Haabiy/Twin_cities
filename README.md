@@ -3,7 +3,7 @@
 This program is based on the list of sister cities on https://en.wikipedia.org/wiki/List_of_sister_cities_in_Europe
 
 ```
-Objective
+Objectives
 
 1. List all the countries on the webpage
 2. Target 3 countries namely Belgium, Finland and France
